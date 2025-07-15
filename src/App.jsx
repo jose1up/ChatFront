@@ -5,7 +5,7 @@ import * as signalR from '@microsoft/signalr';
 
 
 function App() {
-  const url_back = import.meta.env.VITE_URL_BACK;
+  const url_back = import.meta.env.VITE_URL_BACK || "https://localhost:7022/chathub/";
   const[connection, setConnection] =  useState(null);
   const[chat, setChat] = useState([]);
   const[user,setUser] = useState("");
