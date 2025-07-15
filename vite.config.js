@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base : 'jose1up.github.io/ChatFront/'
+  base : 'https://jose1up.github.io/ChatFront/'
 })
