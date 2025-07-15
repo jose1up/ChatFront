@@ -1,5 +1,6 @@
 {
   "name": "chat-client",
+  "homepage": "https://jose1up.github.io/ChatFront/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy":"gh.pages -d dist"
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@microsoft/signalr": "^8.0.7",
